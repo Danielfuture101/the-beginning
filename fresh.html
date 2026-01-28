@@ -4,145 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EXCELLENT DESIGN</title>
-    <style>
-      .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 60px;
-        background: #272121;
-      }
-      .settings{
-        font-family: arial;
-        font-style: italic;
-      }
-      .navbar nav a {
-        margin: 15px;
-        text-decoration: none;
-        color: #5a6665;
-        font-weight: 1000p;
-      }
-      .logo {
-        font-weight: bold;
-        font-style: italic;
-        font-size: 50px;
-        font-family: Verdana;
-        color: rgb(177, 79, 79);
-      }
-      .nav-btn {
-        padding: 10px 20px;
-        border-radius: 20px;
-        border: none;
-        font-style: italic;
-        font-family: Tahoma;
-        background: #5a6665;
-        color: white;
-        cursor: pointer;
-      }
-      .hero {
-        width: 100%;
-        display: block;
-        object-fit: cover;
-        background-color: white;
-      }
-      .hero-content {
-        position: absolute;
-        top: 55%;
-        left: 15%;
-        font-family: "Times New Roman", Times, serif;
-        font-style: italic;
-        font-weight: 700;
-        text-align: center;
-        color: white;
-      }
-      .primary-btn {
-        cursor: pointer;
-        background: #e99312;
-        border-radius: 10px;
-        font-size: medium;
-        color: white;
-      }
-      .none{
-        background-color: #5a6665;
-        position: relative;
-      }
-      .two{
-        position: relative;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr;
-        display: grid;
-        object-fit: cover;
-      }
-      .edit{
-        width: 620px;
-        display: block;
-        object-fit: cover;
-        margin-right: 13px;
-      }
-      .stretch{
-        width: 100%;
-        display: block;
-        object-fit: cover;
-        width: 700px;
-        justify-content: space-between;
-      }
-      .text-1{
-        margin-left: 20px;
-      }
-      .text-2{
-        margin-left: 20px;
-      }
-      .secondary-btn {
-        cursor: pointer;
-        background: #424242;
-        border-radius: 10px;
-        font-size: medium;
-        color: white;
-      }
-
-      .contain {
-        position: relative;
-        width: 100%;
-        height: 400px;
-        background-color: rgb(46, 16, 16);
-        margin-bottom: 10px;
-      }
-      .office {
-        width: 100%;
-        height: 50px
-        display: block;
-        object-fit: cover;
-      }
-      .hero-contents {
-        position: absolute;
-        top: 45%;
-        left: 15%;
-        font-family: "Times New Roman", Times, serif;
-        font-style: italic;
-        font-weight: 700;
-        text-align: center;
-        color: black;
-      }
-      .third-btn {
-        cursor: pointer;
-        font-size: medium;
-        color: white;
-        padding: 15px 25px;
-        border-radius: 22px;
-        color: white;
-        border: none;
-        background: #1e1f1f;
-      }
-      .reset{
-        background-color: #5a6665;
-      }
-      .footer{
-        display: flex;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
+      <div style="background-color: black; color: white; padding: 10px;"> ksdjfkjskdjfkjsdfjsdf</div>
       <div class="navbar">
         <div class="logo">B INTERIORS</div>
         <nav class="settings">
@@ -166,8 +32,7 @@
       </div>
     </header>
 
-    <section>
-      <img src="Hero (2).avif" alt="backgroung image" class="hero" />
+    <section class="hero-section">
       <div class="hero-content">
         <h1>
           A very nice office, this space provides greater light and <br />gives
@@ -180,45 +45,43 @@
         <a
           href="https://unsplash.com/photos/green-and-brown-sofa-chair-8J49mtYWu7E"
           target="_blank"
-          rel="noreferrer"
-          ><button class="primary-btn">Click Here</button></a
+          rel="noreferrer" class="btn primary-btn"
+          >Click Here</a
         >
       </div>
     </section>
 
-    <section class="none">
-      <div class="two">
-        <div class="text-1">
+    <section class="featured-section">
+      <div class="grid-2">
+        <div class="margin-left-20">
           <h2>Get our arrows well<br />sharper in places.</h2>
           <p>
             Curated furniture pieces skillfully designed to enhance elegance,
             comfort and <br />spatial balance within interiors.
           </p>
-          <a href=""><button class="secondary-btn">Shop Now</button></a>
+          <a href="#" class="btn secondary-btn">Shop Now</a>
         </div>
-        <div>
-          <img src="image one.avif" alt="living room" class="edit" />
+        <div class="full">
+          <img src="image one.avif" class="img-full"  alt="living room" />
         </div>
-        <div>
-          <img src="image two.avif" alt="store room" class="stretch" />
+        <div class="full">
+          <img src="image two.avif" class="img-full" alt="store room"/>
         </div>
-        <div class="text-2">
+        <div class="margin-left-20">
           <h2>Select and move</h2>
           <p>
             Practical designs built for living and working environments,
             blending aesthetics <br />with functionality.
           </p>
-          <a href="" target="_blank" rel="noreferrer"
-            ><button class="secondary-btn">Learn More</button></a
+          <a href="" target="_blank" rel="noreferrer" class="btn secondary-btn"
+            >Learn More</a
           >
         </div>
       </div>
     </section>
 
-    <section class="contain">
-      <img src="office replace.avif" alt="backgroung image" class="office" />
-      --> -->
-      <div class="hero-contents">
+    <section class="about-section">
+      <div>
         <h1>
           Creativity generally happens where and <br />when it is encouraged.
         </h1>
@@ -226,12 +89,10 @@
           Just ensure you keep trying. Oftentimes, the main reason why it never
           happened is because you stopped pushing hard as expected.
         </p>
-        <a
-          href="https://unsplash.com/photos/green-and-brown-sofa-chair-8J49mtYWu7E"
+        <a href="https://unsplash.com/photos/green-and-brown-sofa-chair-8J49mtYWu7E"
           target="_blank"
-          rel="noreferrer"
-          ><button class="third-btn">Purchase</button>
-        </a>
+          rel="noreferrer" class="btn"
+          >Purchase</a>
       </div>
     </section>
 
