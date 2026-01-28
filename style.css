@@ -1,0 +1,135 @@
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #272121;
+}
+.settings {
+  font-family: arial;
+  font-style: italic;
+}
+.navbar nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #5a6665;
+  font-weight: bold;
+}
+
+
+
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+  font-family: Verdana;
+  color: rgb(177, 79, 79);
+}
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-style: italic;
+  font-family: Tahoma;
+  background: #5a6665;
+  color: white;
+  cursor: pointer;
+}
+
+
+.hero-section {
+  background-image: url("Hero (2).avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+.hero-content {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: medium;
+  border: none;
+  background: #5a6665;
+  text-decoration: none;
+  color: white;
+}
+
+.primary-btn {
+  background: #e99312;
+  color: white;
+}
+
+.secondary-btn {
+  background: red;
+  color: white;
+}
+
+.featured-section {
+  background-color: #CCC;
+  position: relative;
+}
+
+full {
+  width: 100%;
+}
+
+.img-full {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.grid-2 {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  object-fit: cover;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+
+.about-section {
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url('office _replace.avif');
+}
+
+
+
+
+
+
+
+.reset {
+  background-color: #5a6665;
+}
+.footer {
+  display: flex;
+}
